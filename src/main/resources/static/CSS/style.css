@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 25px;
+	margin: 25px;
+}
+
+div {
+	padding-bottom: 15px;
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+.body {
+	padding: 25px;
+	border: 2px solid black;
+	width: 500px;
+}
+.button {
+	background-color: lightblue;
+	width: 50px;
+	color: white;
+	box-shadow: 2px 3px black;
+}
+
+
+.button-align {
+	display:flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.omikuji {
+	padding: 25px;
+	border: 2px solid black;
+	width: 500px;
+	background-color: lightblue;
+}
